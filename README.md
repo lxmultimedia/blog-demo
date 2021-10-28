@@ -4,7 +4,7 @@
 
 - Express.js
 - EJS templating engine
-- Sequelize
+- Mongoose
 
 
 uses MongoDB to store data
