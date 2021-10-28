@@ -2,8 +2,9 @@
 
 ## Node.js Blog Website Demo Project
 
-- express.js
+- Express.js
 - EJS templating engine
+- Sequelize
 
 
 uses MongoDB to store data
