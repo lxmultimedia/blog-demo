@@ -1,14 +1,10 @@
 # blog-demo
 \
-\
 ## Node.js Blog Website Demo Project
 \
-\
-
 - express.js
 - EJS templating engine
 
-\
 \
 uses MongoDB to store data
 \
