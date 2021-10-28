@@ -1,5 +1,5 @@
 # blog-demo
-\
+/
 ## Node.js Blog Website Demo Project
 \
 - express.js
