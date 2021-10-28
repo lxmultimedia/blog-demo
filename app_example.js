@@ -10,9 +10,13 @@ const app = express();
 const dbURI = "XXXXXX"
 
 
+// configure the server port, connect to db, start server
+const PORT = process.env.PORT || 8080;
+
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(result => app.listen(3000))
+  .then(result => app.listen(PORT))
   .catch(err => console.log(err));
+
 
 // register view engine
 app.set('view engine', 'ejs');
@@ -43,6 +47,3 @@ app.use((req, res) => {
   res.status(404).render('404', { title: '404' });
 });
 
-// Start the server
-const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => console.log('server up and running'))
