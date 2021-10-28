@@ -12,6 +12,7 @@
 # below:
 .git
 .gitignore
+bfg-1.14.0.jar
 
 # Node.js dependencies:
 node_modules/
